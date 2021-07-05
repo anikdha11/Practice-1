@@ -6,7 +6,7 @@ h1 {
 }
 .name {
   font-size: 80px;
-  color: hotpink;
+  color: rgb(1, 248, 75);
 }
 .top-side {
   width: 50%;
@@ -19,13 +19,14 @@ h1 {
 }
 .onik {
   margin-top: 55px;
-  border: 2px solid rgba(245, 150, 9, 0.849);
+  border: 10px rgba(0, 255, 34, 0.849);
+  border-style: inset;
   width: 50%;
   height: 30%;
   padding: 50px;
-  border-radius: 100px;
+  border-radius: 50px;
 
-  background-image: linear-gradient(rgb(0, 174, 255), rgb(216, 109, 10));
+  background-image: linear-gradient(rgba(247, 164, 71, 0.774), rgba(250, 230, 48, 0.808));
 }
 .onik img {
   width: 80%;
@@ -33,7 +34,26 @@ h1 {
 }
 .link {
   text-decoration: none;
-  background-image: linear-gradient(rgb(240, 87, 219), rgb(24, 177, 169));
+  background-image: linear-gradient(rgb(236, 130, 222), rgb(89, 231, 224));
   padding: 5px;
   border-radius: 3px;
+}
+.anik img {
+    width: 80%;
+    height: 85%;
+    
+}
+.anik {
+    margin-top: 55px;
+    border: 10px rgba(92, 117, 231, 0.849);
+    border-style: inset;
+    width: 50%;
+    height: 30%;
+    padding-left: 80px;
+    border-radius: 50px;
+  
+    background-image: linear-gradient(rgb(185, 145, 207), rgb(158, 206, 223));
+}
+.name-two {
+    color:rgb(4, 41, 255)
 }
