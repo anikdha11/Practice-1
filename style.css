@@ -2,7 +2,7 @@ body {
   font-family: "Slabo 27px", serif;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 .name {
   font-size: 80px;
@@ -34,7 +34,7 @@ h1 {
 }
 .link {
   text-decoration: none;
-  background-image: linear-gradient(rgb(236, 130, 222), rgb(89, 231, 224));
+  background-image: linear-gradient(rgb(236, 208, 130), rgb(238, 52, 92));
   padding: 5px;
   border-radius: 3px;
 }
@@ -47,13 +47,38 @@ h1 {
     margin-top: 55px;
     border: 10px rgba(92, 117, 231, 0.849);
     border-style: inset;
-    width: 50%;
+    width: 40%;
     height: 30%;
     padding-left: 80px;
     border-radius: 50px;
+    margin-bottom: 150px;
   
     background-image: linear-gradient(rgb(185, 145, 207), rgb(158, 206, 223));
 }
 .name-two {
     color:rgb(4, 41, 255)
+}
+.experiences {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image:linear-gradient(rgb(252, 206, 5), rgb(236, 240, 233));
+  border-image-slice: 1;
+  background-image: linear-gradient(rgb(180, 147, 180),rgb(165, 218, 211));
+
+}
+#baby-stack{
+  border-left: 7px solid;
+  border-image:linear-gradient(rgb(224, 20, 20), rgb(206, 186, 186));
+  border-image-slice: 1;
+  background-image: linear-gradient(rgb(230, 167, 167),rgb(161, 158, 131));
+}
+h3 {
+  color: rgb(17, 197, 252);
 }
