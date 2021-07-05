@@ -1,0 +1,39 @@
+body {
+  font-family: "Slabo 27px", serif;
+}
+h1 {
+  font-size: 40px;
+}
+.name {
+  font-size: 80px;
+  color: hotpink;
+}
+.top-side {
+  width: 50%;
+  margin: 50px;
+  text-align: justify;
+}
+
+.section-fexiable {
+  display: flex;
+}
+.onik {
+  margin-top: 55px;
+  border: 2px solid rgba(245, 150, 9, 0.849);
+  width: 50%;
+  height: 30%;
+  padding: 50px;
+  border-radius: 100px;
+
+  background-image: linear-gradient(rgb(0, 174, 255), rgb(216, 109, 10));
+}
+.onik img {
+  width: 80%;
+  height: 40%;
+}
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(240, 87, 219), rgb(24, 177, 169));
+  padding: 5px;
+  border-radius: 3px;
+}
