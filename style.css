@@ -19,14 +19,14 @@ h1 {
 }
 .onik {
   margin-top: 55px;
-  border: 10px rgba(0, 255, 34, 0.849);
-  border-style: inset;
+  border-left: 5px rgba(4, 248, 37, 0.849);
   width: 50%;
   height: 30%;
   padding: 50px;
   border-radius: 50px;
-
-  background-image: linear-gradient(rgba(247, 164, 71, 0.774), rgba(250, 230, 48, 0.808));
+  box-shadow: 10px 10px 40px rgb(104, 97, 78);
+  border-style: inset;
+  background-image: linear-gradient(rgba(85, 233, 80, 0.774), rgba(250, 230, 48, 0.808));
 }
 .onik img {
   width: 80%;
@@ -45,13 +45,14 @@ h1 {
 }
 .anik {
     margin-top: 55px;
-    border: 10px rgba(92, 117, 231, 0.849);
+    border-right: 5px rgba(6, 51, 250, 0.849);
     border-style: inset;
     width: 40%;
     height: 30%;
     padding-left: 80px;
     border-radius: 50px;
     margin-bottom: 150px;
+    box-shadow: 10px 10px 40px rgb(82, 70, 70);
   
     background-image: linear-gradient(rgb(185, 145, 207), rgb(158, 206, 223));
 }
